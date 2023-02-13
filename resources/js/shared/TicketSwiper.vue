@@ -5,7 +5,8 @@
                 <span class="bg-blue-100 text-blue-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded pt-2">Passenger {{ index + 1 }}</span>
                 <div class="flex justify-center m-1">
                     <QRCodeVue3
-                        class="w-1/2"
+                        :width="200"
+                        :height="200"
                         :value="qr_data"
                         :cornersSquareOptions="{ type: 'square' }"
                         :qr-options="{ typeNumber: 0, mode: 'Byte', errorCorrectionLevel: 'L' }"

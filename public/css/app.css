@@ -1191,9 +1191,6 @@ input:checked + .toggle-bg {
 .w-auto {
   width: auto;
 }
-.w-1\/2 {
-  width: 50%;
-}
 .w-4 {
   width: 1rem;
 }
@@ -1214,6 +1211,9 @@ input:checked + .toggle-bg {
 }
 .w-1 {
   width: 0.25rem;
+}
+.w-1\/2 {
+  width: 50%;
 }
 .min-w-full {
   min-width: 100%;
